@@ -22,6 +22,11 @@ extra_envs:
       - qgis 3.28.12
       - ocl-icd-system
 
+extra_files:
+  - qgis_global_settings.ini: config/qgis_global_settings.ini
+  - initialize.sh: utils/initialize.sh
+  - components.yml: ood/components.yml
+  - launch.sh: ood/launch.sh
 
 license_file: LICENSE
 write_condarc: true
