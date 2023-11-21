@@ -1,3 +1,2 @@
-*.sh
-!postinstall.sh
+qgis-hpc-bundle-????-Linux-x86_64.sh
 tmp/
