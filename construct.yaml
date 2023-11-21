@@ -1,0 +1,33 @@
+name: qgis-hpc-bundle
+version: 2311
+company: "Tufts University"
+
+channels:
+  - conda-forge
+
+conda_default_channels:
+  - conda-forge
+
+specs:
+  - conda
+  - mamba
+
+extra_envs:
+  qgis-3.34.0:
+    specs:
+      - qgis 3.34.0
+      - ocl-icd-system
+  qgis-3.28.12-ltr:
+    specs:
+      - qgis 3.28.12
+      - ocl-icd-system
+
+
+license_file: LICENSE
+write_condarc: true
+
+installer_type: sh
+post_install: postinstall.sh
+
+register_envs: false
+initialize_conda: false
