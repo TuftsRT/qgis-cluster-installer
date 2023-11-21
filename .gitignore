@@ -1,0 +1,3 @@
+*.sh
+!postinstall.sh
+tmp/
