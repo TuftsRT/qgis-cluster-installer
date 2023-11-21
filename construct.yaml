@@ -27,6 +27,7 @@ extra_files:
   - initialize.sh: utils/initialize.sh
   - components.yml: ood/components.yml
   - launch.sh: ood/launch.sh
+  - icon.png: ood/icon.png
 
 license_file: LICENSE
 write_condarc: true
