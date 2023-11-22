@@ -25,7 +25,7 @@ extra_envs:
 extra_files:
   - qgis_global_settings.ini: config/qgis_global_settings.ini
   - initialize.sh: utils/initialize.sh
-  - components.yml: ood/version.yml
+  - version.yml: ood/version.yml
   - launch.sh: ood/launch.sh
   - icon.png: ood/icon.png
 
