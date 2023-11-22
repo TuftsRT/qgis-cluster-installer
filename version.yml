@@ -1,0 +1,9 @@
+qgis_version:
+  widget: select
+  label: "QGIS version"
+  options:
+    - ["3.40.0", "qgis-3.40.0"]
+    - ["3.28.12 LTR", "qgis-3.28.12-ltr"]
+  help: "The long-term-release (LTR) is more stable, but does not include
+          the lastest features and tools. Use the long-term release (LTR)
+          when exepreicng errors."
