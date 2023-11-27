@@ -23,7 +23,7 @@ extra_envs:
       - ocl-icd-system
 
 extra_files:
-  - qgis_global_settings.ini: config/qgis_global_settings.ini
+  - qgis_global_settings.ini: etc/qgis_global_settings.ini
   - initialize.sh: utils/initialize.sh
   - version.yml: ood/version.yml
   - launch.sh: ood/launch.sh
