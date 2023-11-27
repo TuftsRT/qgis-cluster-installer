@@ -4,7 +4,7 @@
 ENVIRONMENT="<%= context.qgis_version %>"
 
 # load the required conda environment
-source "%PREFIX%/utils/initialize.sh"
+source "%PREFIX%/shell/initialize.sh"
 conda activate "%PREFIX%/envs/$ENVIRONMENT"
 
 # set gdal and qgis environment variables
