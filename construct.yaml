@@ -13,9 +13,9 @@ specs:
   - mamba
 
 extra_envs:
-  qgis-3.34.0:
+  qgis-3.34.1:
     specs:
-      - qgis 3.34.0
+      - qgis 3.34.1
       - ocl-icd-system
   qgis-3.28.12-ltr:
     specs:
